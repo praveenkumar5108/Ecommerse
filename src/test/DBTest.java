@@ -81,13 +81,13 @@ public class DBTest {
 		checkout.click();
 		
 		WebElement FName = driver.findElement(By.cssSelector("input[id=first-name]"));
-		FName.sendKeys("Rajat");
+		FName.sendKeys("Praveen");
 		
 		WebElement LName = driver.findElement(By.cssSelector("input[id=last-name]"));
-		LName.sendKeys("Hegde");
+		LName.sendKeys("Kumar");
 		
 		WebElement ZipCode = driver.findElement(By.cssSelector("input[id=postal-code]"));
-		ZipCode.sendKeys("581401");
+		ZipCode.sendKeys("524323");
 		
 		WebElement Continue = driver.findElement(By.cssSelector("input[id=continue]"));
 		Continue.click();
